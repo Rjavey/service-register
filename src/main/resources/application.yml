@@ -11,10 +11,4 @@ eureka:
     service-url:
       #设置与eureka server 交互地址
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      
-security: 
-  basic: 
-  # 开启http basic认证
-    enabled: true
-  user: user
-  password: password
+
